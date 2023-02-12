@@ -1,0 +1,162 @@
+*import
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: #04e3ff;
+    width: 434px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100vh;
+}
+.sidebar nav{
+    padding: 35px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.sidebar nav li a:hover{
+    color: rgb(243, 21, 76);
+    text-decoration-line: underline;
+    font-size: 32px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: rgb(41, 29, 29);
+}
+.main{
+    background-color: #001429;
+    width: 90vw;
+}
+
+.container{
+    display: flex;
+}
+.infoContainer{
+    background-color: #001429;
+    height: 48vh;
+    width: 80vw;
+    margin : 110px auto;
+    display: flex ;
+    justify-content: space-around;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+    padding: 0 60px;
+    color: white;
+}
+
+.hello{
+    font-size: 65px;
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+}
+.about{
+    font-size: 40px;
+}
+.moreabout{
+    font-size: 29px;
+    font-family: 'Source Code Pro', monospace;
+    margin-top: 23px;
+}
+.button{
+    margin-top: 34px;
+}
+.button button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 5px;
+    cursor:pointer;
+}
+.button button:hover{
+    color: rgb(14, 1, 1);
+    background-color: rgb(231, 235, 238);
+    
+}
+
+.devPic img{
+   height: 48vh;
+   border-radius: 70px;
+   padding-right: 80px;
+   
+}
+
+.contactform{
+    background-color: rgba(119, 103, 115, 0);
+    padding: 0 45px;
+    padding-top: 144px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.contactform center h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+.contactform center form{
+    text-align: center;
+    width: 15vw;
+    border-radius: 10px;
+    margin: 10px 0;
+    
+    font-size: 20px;
+}
+.contactform center form{
+    
+    flex-direction: column;
+}
+#emailHelp{
+    font-size: 8px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+.infoContainer div p{
+    font-size: 20px;
+    display: block;
+}
+.div p{
+    color: white;
+}
+.details{
+    font-size: 25px;
+    padding-left: 120px;
+    padding-top: 100px;
+    color: white;
+}
+.Skillmama div p{
+    font-size: 25px;
+    padding-left: 125px;
+    padding-top: 100px;
+    color: white;
+}
+.Skillmama div p li{
+    font-size: 25px;
+    padding-left: 125px;
+}
+.infoContainerHistroy div p {
+    font-size: 30px;
+    padding: 20px 15px;
+    padding-top: 25px;
+    color: white;
+    justify-content: left;
+}
+.devInfoProject{
+    font-size: 25px;
+    padding: 50px 30px;
+    padding-top: 15px;
+    color: white;
+}
